@@ -61,7 +61,7 @@
               fadeOutEffect();
           }
           // add hash (#) to url
-          window.location.hash = hash;
+          //window.location.hash = hash;
       }
      }
   })
