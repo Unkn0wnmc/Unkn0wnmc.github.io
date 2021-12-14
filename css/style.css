@@ -70,6 +70,18 @@ img{
    vertical-align: middle;
    max-width: 100%;
 }
+/* footer section styling */
+
+footer{
+    position: absolute;
+    left: 0;
+    bottom: -2508px;
+    background-color: #212121;
+    padding: 15px 23px;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
 .container{
    max-width: 1140px;
    margin:auto;
