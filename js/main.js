@@ -24,4 +24,4 @@
 
 function bodyScrollingToggle(){
   document.body.classList.toggle("hidden-scrolling");
- }
+}
