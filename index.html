@@ -1,6 +1,31 @@
 <!DOCTYPE html>
 <html lang="zxx">
   <head>
+
+    <script>
+
+    document.onkeydown = function (e) {
+        if (event.keyCode == 123) {
+            return false;
+        }
+        if (e.ctrlKey && e.shiftKey && (e.keyCode == 'I'.charCodeAt(0) || e.keyCode == 'i'.charCodeAt(0))) {
+            return false;
+        }
+        if (e.ctrlKey && e.shiftKey && (e.keyCode == 'C'.charCodeAt(0) || e.keyCode == 'c'.charCodeAt(0))) {
+            return false;
+        }
+        if (e.ctrlKey && e.shiftKey && (e.keyCode == 'J'.charCodeAt(0) || e.keyCode == 'j'.charCodeAt(0))) {
+            return false;
+        }
+        if (e.ctrlKey && (e.keyCode == 'U'.charCodeAt(0) || e.keyCode == 'u'.charCodeAt(0))) {
+            return false;
+        }
+        if (e.ctrlKey && (e.keyCode == 'S'.charCodeAt(0) || e.keyCode == 's'.charCodeAt(0))) {
+            return false;
+        }
+        }
+    </script>
+
   <meta charset="utf-8">
   <title>m0njurul's Portfolio </title>
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -20,7 +45,7 @@
   <link rel="stylesheet" type="text/css" class="alternate-style" title="color-5" href="css/skins/color-5.css" disabled>
   <link rel="stylesheet" type="text/css" href="css/style-switcher.css">
 </head>
-<body class="dark">
+<body class="dark" oncontextmenu="return false;">
 
   <!-- header start -->
   <header class="header">
@@ -61,7 +86,7 @@
         <div class="home-text">
           <p>Hello</p>
           <h2>I'm m0njurul</h2>
-          <h1>Ethical Hacker, CTF Player &amp; Bug Bounty Hunter</h1>
+          <h1>Ethical Hacker, Coder &amp; Bug Bounty Hunter</h1>
           <a href="#about" class="link-item btn-1 outer-shadow hover-in-shadow">More About Me</a>
         </div>
         <div class="home-img">
@@ -91,8 +116,8 @@
           <div class="social-links">
             <a href="https://www.facebook.com/m0njurul/" class="outer-shadow hover-in-shadow"><i class="fab fa-facebook-f"></i></a>
             <a href="https://twitter.com/m0njurul_" class="outer-shadow hover-in-shadow"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.instagram.com/m0njurul_/" class="outer-shadow hover-in-shadow"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.linkedin.com/in/m0njurul" class="outer-shadow hover-in-shadow"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/iamruuu.exe/" class="outer-shadow hover-in-shadow"><i class="fab fa-instagram"></i></a>
+            <a href="www.linkedin.com/in/m0njurul" class="outer-shadow hover-in-shadow"><i class="fab fa-linkedin-in"></i></a>
           </div>
           <!-- social media end -->
         </div>
