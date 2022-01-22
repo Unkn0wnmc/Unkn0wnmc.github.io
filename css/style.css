@@ -3,6 +3,7 @@
 fonts
 --------------*/
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
 
 /*---------------
 global style
@@ -448,12 +449,26 @@ home section
 }
 .home-section .home-text p{
    color: var(--text-black-300);
-   font-size: 18px;
+   font-size: 30px;
    text-transform: capitalize;
+   font-weight: 700;
    margin:0;
 }
 .home-section .home-text h2{
-   font-size: 55px;
+   font-size: 30px;
+   font-weight: 700;
+   color: var(--text-black-900);
+   margin:0;
+}
+.home-section .home-text h4{
+   font-size: 20px;
+   font-weight: 700;
+   color: #61CE70;
+   margin:0;
+   font-family: dosis;
+}
+.home-section .home-text h3{
+   font-size: 40px;
    font-weight: 700;
    color: var(--text-black-900);
    margin:0;
